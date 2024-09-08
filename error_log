@@ -1,0 +1,41 @@
+[08-Dec-2022 15:32:36 UTC] PHP Fatal error:  Unparenthesized `a ? b : c ? d : e` is not supported. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in /home1/iwpdirectory/dev.iwpdirectory.in/storage/framework/views/ea00dfb33bb2b679d14a651e0aa87f2a265762aa.php on line 45
+[08-Dec-2022 15:33:17 UTC] PHP Fatal error:  Unparenthesized `a ? b : c ? d : e` is not supported. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in /home1/iwpdirectory/dev.iwpdirectory.in/storage/framework/views/ea00dfb33bb2b679d14a651e0aa87f2a265762aa.php on line 45
+[08-Dec-2022 15:33:39 UTC] PHP Fatal error:  Unparenthesized `a ? b : c ? d : e` is not supported. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in /home1/iwpdirectory/dev.iwpdirectory.in/storage/framework/views/ea00dfb33bb2b679d14a651e0aa87f2a265762aa.php on line 45
+[08-Dec-2022 15:49:28 UTC] PHP Fatal error:  Unparenthesized `a ? b : c ? d : e` is not supported. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in /home1/iwpdirectory/dev.iwpdirectory.in/storage/framework/views/ea00dfb33bb2b679d14a651e0aa87f2a265762aa.php on line 45
+[08-Dec-2022 15:51:23 UTC] PHP Fatal error:  Unparenthesized `a ? b : c ? d : e` is not supported. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in /home1/iwpdirectory/dev.iwpdirectory.in/storage/framework/views/ea00dfb33bb2b679d14a651e0aa87f2a265762aa.php on line 45
+[08-Dec-2022 16:50:23 UTC] PHP Fatal error:  Unparenthesized `a ? b : c ? d : e` is not supported. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in /home1/iwpdirectory/dev.iwpdirectory.in/storage/framework/views/ea00dfb33bb2b679d14a651e0aa87f2a265762aa.php on line 45
+[08-Dec-2022 17:09:06 UTC] PHP Fatal error:  Unparenthesized `a ? b : c ? d : e` is not supported. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in /home1/iwpdirectory/dev.iwpdirectory.in/storage/framework/views/ea00dfb33bb2b679d14a651e0aa87f2a265762aa.php on line 45
+[18-Jan-2023 10:40:24 UTC] PHP Fatal error:  Unparenthesized `a ? b : c ? d : e` is not supported. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in /home1/iwpdirectory/dev.iwpdirectory.in/app/Http/Controllers/UserViewController.php on line 66
+[09-Feb-2023 09:19:22 UTC] PHP Warning:  require(/home1/iwpdirectory/dev.iwpdirectory.in/app/helper.php): Failed to open stream: No such file or directory in /home1/iwpdirectory/dev.iwpdirectory.in/vendor/composer/autoload_real.php on line 55
+[09-Feb-2023 09:19:22 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/iwpdirectory/dev.iwpdirectory.in/vendor/composer/../../app/helper.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home1/iwpdirectory/dev.iwpdirectory.in/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home1/iwpdirectory/dev.iwpdirectory.in/vendor/composer/autoload_real.php(38): composerRequireb9936f70b8bdf9b02a8e78b17f32d583('1aff2f8abd60e95...', '/home1/iwpdirec...')
+#1 /home1/iwpdirectory/dev.iwpdirectory.in/vendor/autoload.php(25): ComposerAutoloaderInitb9936f70b8bdf9b02a8e78b17f32d583::getLoader()
+#2 /home1/iwpdirectory/dev.iwpdirectory.in/index.php(34): require('/home1/iwpdirec...')
+#3 {main}
+  thrown in /home1/iwpdirectory/dev.iwpdirectory.in/vendor/composer/autoload_real.php on line 55
+[09-Feb-2023 09:19:25 UTC] PHP Warning:  require(/home1/iwpdirectory/dev.iwpdirectory.in/vendor/composer/../../app/helper.php): Failed to open stream: No such file or directory in /home1/iwpdirectory/dev.iwpdirectory.in/vendor/composer/autoload_real.php on line 55
+[09-Feb-2023 09:19:25 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/iwpdirectory/dev.iwpdirectory.in/vendor/composer/../../app/helper.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home1/iwpdirectory/dev.iwpdirectory.in/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home1/iwpdirectory/dev.iwpdirectory.in/vendor/composer/autoload_real.php(38): composerRequireb9936f70b8bdf9b02a8e78b17f32d583('1aff2f8abd60e95...', '/home1/iwpdirec...')
+#1 /home1/iwpdirectory/dev.iwpdirectory.in/vendor/autoload.php(25): ComposerAutoloaderInitb9936f70b8bdf9b02a8e78b17f32d583::getLoader()
+#2 /home1/iwpdirectory/dev.iwpdirectory.in/index.php(34): require('/home1/iwpdirec...')
+#3 {main}
+  thrown in /home1/iwpdirectory/dev.iwpdirectory.in/vendor/composer/autoload_real.php on line 55
+[11-Feb-2023 04:45:54 UTC] PHP Warning:  require(/home1/iwpdirectory/dev.iwpdirectory.in/vendor/composer/../../app/helper.php): Failed to open stream: No such file or directory in /home1/iwpdirectory/dev.iwpdirectory.in/vendor/composer/autoload_real.php on line 55
+[11-Feb-2023 04:45:54 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/iwpdirectory/dev.iwpdirectory.in/vendor/composer/../../app/helper.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home1/iwpdirectory/dev.iwpdirectory.in/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home1/iwpdirectory/dev.iwpdirectory.in/vendor/composer/autoload_real.php(38): composerRequireb9936f70b8bdf9b02a8e78b17f32d583('1aff2f8abd60e95...', '/home1/iwpdirec...')
+#1 /home1/iwpdirectory/dev.iwpdirectory.in/vendor/autoload.php(25): ComposerAutoloaderInitb9936f70b8bdf9b02a8e78b17f32d583::getLoader()
+#2 /home1/iwpdirectory/dev.iwpdirectory.in/index.php(34): require('/home1/iwpdirec...')
+#3 {main}
+  thrown in /home1/iwpdirectory/dev.iwpdirectory.in/vendor/composer/autoload_real.php on line 55
+[11-Feb-2023 04:45:58 UTC] PHP Warning:  require(/home1/iwpdirectory/dev.iwpdirectory.in/vendor/composer/../../app/helper.php): Failed to open stream: No such file or directory in /home1/iwpdirectory/dev.iwpdirectory.in/vendor/composer/autoload_real.php on line 55
+[11-Feb-2023 04:45:58 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/iwpdirectory/dev.iwpdirectory.in/vendor/composer/../../app/helper.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home1/iwpdirectory/dev.iwpdirectory.in/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home1/iwpdirectory/dev.iwpdirectory.in/vendor/composer/autoload_real.php(38): composerRequireb9936f70b8bdf9b02a8e78b17f32d583('1aff2f8abd60e95...', '/home1/iwpdirec...')
+#1 /home1/iwpdirectory/dev.iwpdirectory.in/vendor/autoload.php(25): ComposerAutoloaderInitb9936f70b8bdf9b02a8e78b17f32d583::getLoader()
+#2 /home1/iwpdirectory/dev.iwpdirectory.in/index.php(34): require('/home1/iwpdirec...')
+#3 {main}
+  thrown in /home1/iwpdirectory/dev.iwpdirectory.in/vendor/composer/autoload_real.php on line 55
+[25-Feb-2023 06:53:23 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 165691392 bytes) in /home3/india/public_html/storage/framework/views/b53397a75dcb597f50034a909c1fdb0a1981b446.php on line 178

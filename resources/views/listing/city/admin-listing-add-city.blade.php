@@ -1,0 +1,66 @@
+@extends('layout.master')
+@section('content')
+        <!-- Page Sidebar Ends-->
+        <div class="page-body">
+          <div class="container-fluid">
+            <div class="page-title">
+              <div class="row">
+                <div class="col-12 col-sm-6">
+                  <h3>Listings</h3>
+                </div>
+                <div class="col-12 col-sm-6">
+                  <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="{{route('admin/dashboard')}}"><i data-feather="home"></i></a></li>
+                    <li class="breadcrumb-item">City</li>
+                    <li class="breadcrumb-item active">Add City</li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Container-fluid starts-->
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="card">
+                  <div class="card-header pb-0">
+                    <h5>Add New City</h5>
+                  </div>
+                  <div class="card-body add-post">
+                    <form class="row needs-validation" action="{{route('listing_city_store')}}" method="post">
+                      @csrf
+                      <div class="col-sm-12">
+                        <div class="mb-3">
+                          <div class="col-form-label"> 
+                            <label>State</label>
+                            <select class="js-example-placeholder-multiple col-sm-12" name="state_id">
+                              <option value="">Choose State</option>
+                              @foreach($state as $user):
+                                <option value="{{$user->state_id}}" >{{$user->state_name}}</option>
+                                 @endforeach
+                            </select>
+                          </div>
+                        </div>
+                        <div class="mb-3">
+                          <label for="city_name"> City Name</label>
+                          <input class="form-control" id="city_name" type="text" name="city_name" placeholder="City name*" required="">
+                          <div class="valid-feedback">Looks good!</div>
+                          @error('city_name')
+                            <span class="small text-danger">{{$message}}</span>
+                            @enderror
+                        </div>
+                      </div>
+                      <div class="btn-showcase text-end">
+                        <button class="btn btn-primary" type="submit">Submit</button>
+                        <input class="btn btn-light" type="reset" value="Discard">
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Container-fluid Ends-->
+        </div>
+        @endsection
+        <!-- footer start-->
